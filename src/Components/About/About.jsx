@@ -3,24 +3,24 @@ import style from "../../CSS/About.module.css";
 const About = () => {
   return (
     <section className={style.container}>
-      <h1 className={style.title}>About me</h1> 
+      <h1 className={style.title}>About me</h1>
       <div className={style.containerText}>
         <p>Hey there,</p>
         <p>
-          Hey there, I'm Franklyn, and I'm from Dominican Republic, Santo Domingo. I work
-          at Accenture Applied Intelligence as an AI Engineering Associate
-          Manager. For almost the past eight years, I've been diving into my
-          passion and profession: creating beautiful and usable products with
-          web technologies. Computers have intrigued me ever since I first saw
-          one. This fascination led me to my current job, and it's one of the
-          reasons why I love exploring all things computer-related – from coding
-          and software to hardware and networking.
+          Hey there, I'm Franklyn, and I'm from Dominican Republic, Santo
+          Domingo. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Maxime deleniti laborum tempore itaque expedita quibusdam id
+          architecto reprehenderit cum culpa. Impedit maiores, consectetur animi
+          voluptatibus debitis nihil ratione quis qui. Dicta voluptatem ad sunt
+          incidunt! Repellat, maxime minus ratione eos amet cum, ducimus optio
+          voluptas illo nobis officiis temporibus. Nihil deserunt fugit
+          officiis, iure eaque ab est cum ex harum.
         </p>
         <p>
-          Outside of my professional commitments, I dedicate my time to
-          contributing to open-source projects. On occasion, you might just
-          catch me wandering around Rook Islands, Kyrat, or Great Plains – yep,
-          I'm a bit of a gamer.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur
+          ratione nihil, reiciendis laborum hic distinctio iure quidem minima.
+          Eius labore obcaecati recusandae nisi reiciendis. Vero minus hic vel
+          ipsam quis.
         </p>
       </div>
     </section>

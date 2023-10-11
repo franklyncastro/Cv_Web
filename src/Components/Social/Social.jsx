@@ -7,7 +7,7 @@ const Social = () => {
       <a href="https://github.com/franklyncastro" target="blank">
         <i className="fab fa-github"></i>
       </a>
-      <a href="https://github.com/franky-yawerlynn" target="blank">
+      <a href="https://www.linkedin.com/in/franklyncastro/" target="blank">
         <i className="fab fa-linkedin-in"></i>
       </a>
       <a href="https://twitter.com/franklyn_dev" target="blank">
