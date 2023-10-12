@@ -1,14 +1,19 @@
 import './App.css'
 import About from './Components/About/About'
-import Profile from './Components/Profile/Profile'
+import { Routes, Route, useLocation } from 'react-router-dom'
+import Home from './Components/Home/Home'
 
 function App() {
-  
+  const location = useLocation()
 
   return (
     <div className='app'>
-      <Profile/>
-      <About/>
+      {location.pathname === '/' ? (<Home/>) : (<></>) }
+      
+      <Routes>
+        <Route path='/about' element={<About/>}/>
+      </Routes>
+      
     </div>
   )
 }

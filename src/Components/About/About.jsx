@@ -1,10 +1,12 @@
 import style from "../../CSS/About.module.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
     <section className={style.container}>
-      <h1 className={style.title}>About me</h1>
+      <Link to='/' className={style.link}><h1 className={style.title}>Go Home</h1></Link>
       <div className={style.containerText}>
+      <h1 className={''}>ABOUT ME</h1>
         <p>Hey there,</p>
         <p>
           Hey there, I'm Franklyn, and I'm from Dominican Republic, Santo

@@ -4,6 +4,8 @@
     color: #fff;
     min-width: 650px;
     height: 100vh;
+    box-sizing: border-box;
+
 }
 
 .container{
@@ -32,11 +34,12 @@
 }
 
 .imgContainer img{
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(172, 173, 175, 0.565);
     transition: all 1s ease;
+    margin-bottom: 10px;
 }
 
 

@@ -1,47 +1,49 @@
 .container{
     padding: 3rem;
     box-sizing: border-box;
-   
+    display: block; 
 }
 
-.container .title{
-    text-transform: uppercase;
-    font-size: 20px;
-    width: 9rem;
-    text-align: center;
-    margin-top: 8%;
-    cursor: pointer;
-    transition: 0.9s;
-}
-
-.container .title:hover{
-    color: #f81414;
-}
-
-
-.container .title::before {
-    margin-left: auto;
-  }
+.title {
+  color: #212112;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  background: none;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  width: 10%;
+  transition: 1.2s;
+  text-align: center;
   
-  .container .title::after, .title::before {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #f81414;
-    display: block;
-    transition: 0.5s;
-  }
-  
-  .container .title:hover::after, .title:hover::before {
-    width: 100%;
-  }
+}
 
+.title:hover{
+  color: #f44336;
+}
+
+.title::before {
+  margin-left: auto;
+}
+
+.title::after, .title::before {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  transition: 0.5s;
+}
+
+.title:hover::after, .title:hover::before {
+  width: 100%;
+}
 
 .containerText{
     display: block;
     margin-top: 7%;
     padding-right: 10em;
-}
+} 
 
 .containerText p{
     margin-block-start: 1em;
