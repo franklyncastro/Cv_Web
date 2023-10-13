@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const About = () => {
   return (
     <section className={style.container}>
-      <Link to='/' className={style.link}><h1 className={style.title}>Go Home</h1></Link>
+      <Link to='/' className={style.link}><h1 className={style.title}><i className="fas fa-home"></i> Home</h1></Link>
       <div className={style.containerText}>
       <h1 className={''}>ABOUT ME</h1>
         <p>Hey there,</p>
