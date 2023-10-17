@@ -10,7 +10,7 @@ const Profile = () => {
         <div className={style.container}>
           <div className={style.imgContainer}>
             <img src={img} alt="Franklyn's Picture" />
-            <Link to='About' className={style.link}><h4>View Profile</h4></Link>
+            <Link to='About' className={style.link}><h4><i className="fa-solid fa-user"></i> View Profile</h4></Link>
           </div>
           <h1>Hello, I'm Franklyn Yawerlyn Castro</h1>
           <h2>Full Stack Developer</h2>
